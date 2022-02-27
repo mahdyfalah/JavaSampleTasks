@@ -23,4 +23,10 @@ class ClosestToZeroTest {
         var closestToZero = new ClosestToZero();
         assertEquals(2, closestToZero.find(new ArrayList<>(List.of(11, 3, 2))));
     }
+
+    @Test
+    void findClosestToZeroInEmptyList() {
+        var closestToZero = new ClosestToZero();
+        assertEquals(0, closestToZero.find(new ArrayList<>()));
+    }
 }
