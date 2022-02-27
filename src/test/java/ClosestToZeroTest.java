@@ -11,4 +11,16 @@ class ClosestToZeroTest {
         var closestToZero = new ClosestToZero();
         assertEquals(-2, closestToZero.find(new ArrayList<>(List.of(11, 3, -3, -6, -2))));
     }
+
+    @Test
+    void findClosestToZeroInListNoPositive() {
+        var closestToZero = new ClosestToZero();
+        assertEquals(-2, closestToZero.find(new ArrayList<>(List.of(-3, -6, -2))));
+    }
+
+    @Test
+    void findClosestToZeroInListNoNegative() {
+        var closestToZero = new ClosestToZero();
+        assertEquals(2, closestToZero.find(new ArrayList<>(List.of(11, 3, 2))));
+    }
 }
