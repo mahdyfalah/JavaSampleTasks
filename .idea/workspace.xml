@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce5625fb-3d53-45e6-a3d9-d6e521826e68" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ClosestToZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClosestToZero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ClosestToZeroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClosestToZeroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ClosestToZero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ClosestToZero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ClosestToZeroTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ClosestToZeroTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +58,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ClosestToZeroTest.findClosestToZeroInEmptyList">
+  <component name="RunManager" selected="JUnit.ClosestToZeroTest">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="JavaSampleTasks" />
@@ -90,11 +95,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ClosestToZeroTest.findClosestToZeroTie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSampleTasks" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClosestToZeroTest" />
+      <option name="METHOD_NAME" value="findClosestToZeroTie" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ClosestToZeroTest.findClosestToZeroInEmptyList" />
         <item itemvalue="JUnit.ClosestToZeroTest" />
         <item itemvalue="JUnit.ClosestToZeroTest.findClosestToZeroInList" />
+        <item itemvalue="JUnit.ClosestToZeroTest.findClosestToZeroTie" />
+        <item itemvalue="JUnit.ClosestToZeroTest.findClosestToZeroInEmptyList" />
       </list>
     </recent_temporary>
   </component>
@@ -107,7 +123,8 @@
       <option name="presentableId" value="Default" />
       <updated>1645817760153</updated>
       <workItem from="1645817764612" duration="811000" />
-      <workItem from="1645962693815" duration="4485000" />
+      <workItem from="1645962693815" duration="6099000" />
+      <workItem from="1646304041473" duration="4940000" />
     </task>
     <task id="LOCAL-00001" summary="Maven framework added&#10;Junit dependency added&#10;ClosestToZero Class implemented&#10;ClosetToZeroTest implemented">
       <created>1645965061565</created>
@@ -130,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645966229455</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added better comments to ClosestToZero class for better understanding&#10;Implemented new test to check empty lists">
+      <created>1645967367670</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645967367670</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +163,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Maven framework added&#10;Junit dependency added&#10;ClosestToZero Class implemented&#10;ClosetToZeroTest implemented" />
     <MESSAGE value="Created to new tests for lists with no negative or positive values" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created to new tests for lists with no negative or positive values" />
+    <MESSAGE value="Added better comments to ClosestToZero class for better understanding&#10;Implemented new test to check empty lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added better comments to ClosestToZero class for better understanding&#10;Implemented new test to check empty lists" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
