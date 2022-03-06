@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce5625fb-3d53-45e6-a3d9-d6e521826e68" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ClosestToZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClosestToZero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ClosestToZeroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClosestToZeroTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ClosestToZero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ClosestToZero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ClosestToZeroTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ClosestToZeroTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="ce5625fb-3d53-45e6-a3d9-d6e521826e68" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,6 +115,7 @@
       <workItem from="1645817764612" duration="811000" />
       <workItem from="1645962693815" duration="6099000" />
       <workItem from="1646304041473" duration="4940000" />
+      <workItem from="1646561889728" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="Maven framework added&#10;Junit dependency added&#10;ClosestToZero Class implemented&#10;ClosetToZeroTest implemented">
       <created>1645965061565</created>
@@ -154,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645967367670</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added findClosestToZeroTie() to test a list with tie&#10;added javadoc for ClosestToZero class&#10;changed groupId and artifactId in pom.xml&#10;some fixes for ClosestToZeroTest to avoid repetition of ClosestToZero class inside functions">
+      <created>1646562169975</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1646562169975</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +162,8 @@
     <MESSAGE value="Maven framework added&#10;Junit dependency added&#10;ClosestToZero Class implemented&#10;ClosetToZeroTest implemented" />
     <MESSAGE value="Created to new tests for lists with no negative or positive values" />
     <MESSAGE value="Added better comments to ClosestToZero class for better understanding&#10;Implemented new test to check empty lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added better comments to ClosestToZero class for better understanding&#10;Implemented new test to check empty lists" />
+    <MESSAGE value="added findClosestToZeroTie() to test a list with tie&#10;added javadoc for ClosestToZero class&#10;changed groupId and artifactId in pom.xml&#10;some fixes for ClosestToZeroTest to avoid repetition of ClosestToZero class inside functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="added findClosestToZeroTie() to test a list with tie&#10;added javadoc for ClosestToZero class&#10;changed groupId and artifactId in pom.xml&#10;some fixes for ClosestToZeroTest to avoid repetition of ClosestToZero class inside functions" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
